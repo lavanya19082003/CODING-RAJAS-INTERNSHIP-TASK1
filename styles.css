@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    border-radius: 10px;
+    background-image: url('https://wallpaperaccess.com/full/1393206.jpg');
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color:skyblue;
+}
+
+.main-content {
+    width: 75%;
+    padding: 20px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#preview {
+    border: 2px solid skyblue; 
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    background-image: url('https://wallpaperaccess.com/full/1393206.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.template {
+    display: none;
+    padding: 20px;
+    border: 2px solid skyblue; /* Green */
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.template h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Template 1 styles */
+.template-1 {
+    background-color: skyblue; /* Orange */
+    color: #333;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.template-1 button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+}
+
+/* Template 2 styles */
+.template-2 {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.template-2 button {
+    background-color: #fff;
+    color: #FF69B4; /* Hot Pink */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+}
